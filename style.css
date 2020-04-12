@@ -1,0 +1,35 @@
+h1 {
+    text-align: center;
+    background-color: black;
+    color: white;
+    width: 100%;
+    padding: 15px;
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+.header-style {
+    font-size: 40px;
+    color: blueviolet;
+    text-align: center;
+}
+
+.card {
+    width: 100%;
+}
+
+.dayoffive {
+    margin: 20px;
+    background: blueviolet;
+    text-decoration-color: black;
+}
+
+h3 {
+    float: left;
+}
+
+#fiveForecast {
+    text-align: center;
+}

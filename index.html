@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 shrink-to-fit=no" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Weather Dashboard - Faithful's</title>
+</head>
+
+<body>
+    <!------------------- Title/Banner Section, search field created for the User ------------->
+    <div class="container-fluid">
+        <nav class="navbar bg-dark">
+            <h1 class="header-style mx-auto"> Weather Dashboard </h1>
+        </nav>
+        <div class="row">
+            <div class="col-3 bg-dark">
+                <div class="mt-2"> Search for a City - </div>
+                <div class="input-group mb-3">
+                    <input type="text" id="citiesValue" class="form-control">
+                    <div class="input-group-append">
+                        <button class="btn btn-primary" type="button" id="searchCity"></i> <i
+                                class="fas fa-search-location"></i></button>
+                    </div>
+                </div>
+
+                <!----------------------- Dislays list of searched Cities the User made -------------->
+                <div class="searchedCities"></div>
+            </div>
+            <div class="col-8">
+                <div class="row p-3">
+                    <div class="card">
+
+                        <div class="card-body"></div>
+                    </div>
+                </div>
+                <div class="row">
+                    <h3> 5-Day Forecast </h3>
+
+                </div>
+
+
+                <!------------- Forecast Divs ------------>
+                <div id="forecast5" class="row"></div>
+                <div class="col dayoffive rounded-lg p-2"></div>
+            </div>
+        </div>
+
+    </div>
+
+    </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://kit.fontawesome.com/1cc5977b2c.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
